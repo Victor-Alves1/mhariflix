@@ -1,0 +1,88 @@
+:root{
+  --red-flix: #E50913;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+body {
+  background-color: black;
+  color: white;
+  font-size: 18pt;
+  letter-spacing: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-spacing: 5px;
+  line-height: 25px;
+  border: 0.5px solid black;
+  overflow-x: hidden;
+}
+header{
+  position: absolute;
+  right: 50%;
+  transform: translate(50%);
+  top: 40px;
+}
+.bg{
+  position: absolute;
+  z-index: -1;
+  filter: opacity(0.5);
+  height: 1125px;
+  object-fit: fill;
+}
+.first-section{
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 15%;
+}
+.first-section p{
+  width: 45%;
+  margin-top: 35vh;
+  
+}
+.App a button{
+  display: block;
+  border-radius: 5px;
+  width: 300px;
+  height: 100px;
+  background-color: var(--red-flix);
+  margin: 200px auto;
+  color: white;
+  font-size: 20pt;
+}
+.App a button:hover{
+  border: 1px solid brown;
+}
+.Container-Movies-Catalog{
+  margin-top: 500px;
+  text-align: center;
+}
+.Movies-Catalog{
+  display: flex;
+  justify-content: space-evenly;
+}
+.Movies-Catalog a img:hover{
+  margin-top: 10px;
+  opacity: 0.8;
+}
+.Movies-Catalog a{
+  position: relative;
+}
+.Movies-Catalog a img{
+  margin-top: 20px;
+  width: 30vw;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.Movies-Catalog a p{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  left: 50%;
+  text-align: center;
+}
+

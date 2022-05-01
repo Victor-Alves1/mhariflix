@@ -27,15 +27,15 @@ function App() {
           Veja nosso catálogo de filmes
         </h2>
         <div className='Movies-Catalog'>
-          <a href="">
+          <a href="/heroes">
               <img src={heroesMovies} alt="Super heroes movies catalog" />
               <p>SUPER HEROES</p>
           </a>
-          <a href="">
+          <a href="/action">
             <img src={actionMovies} alt="Action movies catalog" />
             <p>ACTION</p>
           </a>
-          <a href="">
+          <a href="/fiction">
             <img src={sfMovies} alt="Scientific fiction movies catalog" />
             <p>SCIENTIFIC FICTION</p>
           </a>

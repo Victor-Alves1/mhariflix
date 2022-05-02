@@ -1,3 +1,16 @@
 *{
     margin: 0;
 }
+.container-row:nth-child(1){
+    margin-top: 200px;
+}
+.container-row h2{
+    margin: 30px;
+}
+.row-movies{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100vw;
+    gap: 10px;
+    justify-content: center;
+}

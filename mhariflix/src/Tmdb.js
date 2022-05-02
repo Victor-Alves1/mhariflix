@@ -1,6 +1,6 @@
 const API_KEY ='f5bf4cb772d29cb48b3e9f569c430ce9'
 const API_BASE = 'https://api.themoviedb.org/3'
-https://api.themoviedb.org/3/
+
 
 const basicFetch = async (endpoint) => {
     const req = await fetch(`${API_BASE}${endpoint}`);
@@ -13,23 +13,23 @@ export default {
         return  [
             {
                 slug: 'action',
-                title: 'Ação',
-                items: await basicFetch(`/discover/movies?with_genres=28&language=pt-BR&api_key=${API_KEY}`),
+                title: 'Action',
+                items: await basicFetch(`/discover/movie?with_genres=28&language=pt-BR&api_key=${API_KEY}`),
             },
             {
                 slug: 'Comedy',
-                title: 'Comedia',
-                items: await basicFetch(`/discover/movies?with_genres=35&language=pt-BR&api_key=${API_KEY}`)
+                title: 'Comedy',
+                items: await basicFetch(`/discover/movie?with_genres=35&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'Science fiction',
-                title: 'Ficção científica',
-                items: await basicFetch(`/discover/movies?with_genres=878&language=pt-BR&api_key=${API_KEY}`)
+                title: 'Science fiction',
+                items: await basicFetch(`/discover/movie?with_genres=878&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'Heroes',
-                title: 'Super heróis',
-                items: await basicFetch(`/discover/movies?with_genres=14&language=pt-BR&api_key=${API_KEY}`)
+                title: 'Super hero',
+                items: await basicFetch(`/discover/movie?with_genres=14&language=pt-BR&api_key=${API_KEY}`)
             },
         ]
     }

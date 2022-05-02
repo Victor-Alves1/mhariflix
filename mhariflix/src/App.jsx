@@ -53,7 +53,7 @@ function App() {
           <h3>Na TV</h3>
           <hr />
           <br />
-          <p>Para quem gosta de uma tela de cinam no conforto de estar em casa</p>
+          <p>Para quem gosta de uma tela de cinema no conforto de estar em casa</p>
         </div>
 
         <div className='Platform-Catalog w-1 h-1'>

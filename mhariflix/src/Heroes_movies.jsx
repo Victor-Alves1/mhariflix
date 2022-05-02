@@ -14,14 +14,14 @@ const Heroes = () => {
         }
         loadAll();
     }, [])
-
+    const HeroesFilter = movieList.filter(obj=>(obj.title == 'Super hero'))
     return (
         <div>
-            <div className='Main-movie'>
+            <div className='main-movie'>
 
             </div>
             <div className='container-movies'>
-                {movieList.map((item, key) => (
+                {HeroesFilter.map((item, key) => (
                     <Row key={key} title={item.title} items={item.items}/>
                 ))}
             </div>

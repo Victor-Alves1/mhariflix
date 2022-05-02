@@ -5,7 +5,7 @@ import './index.css'
 const Header = () => {
     return (
         <header>
-            <img src={logo} alt="Logo do site" />
+            <a href="/"><img src={logo} alt="Logo do site" /></a>
         </header>
     );
 }

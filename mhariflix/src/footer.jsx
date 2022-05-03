@@ -1,8 +1,9 @@
 const Footer = () => {
     return (
         <footer>
-            <h2>Dúvidas? Ligue XXXX-XXX-XXXX</h2>
+            
             <div className="footer-flex">
+             <h2>Dúvidas? Ligue XXXX-XXX-XXXX</h2>
              <span>Perguntas frequentes</span>
              <span>Centro de ajuda</span>
              <span>Termo de uso</span>   

@@ -31,11 +31,12 @@ header{
   position: absolute;
   z-index: -1;
   filter: opacity(0.5);
-  height: 1125px;
-  object-fit: fill;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
 }
 .initial-screen{
-  height: 1125px;
+  height: 100vh;
 }
 .first-section{
   display: flex;
@@ -58,7 +59,7 @@ header{
   border: 1px solid brown;
 }
 .Container-Catalog{
-  margin-top: 50px;
+  margin: 80px auto;
   text-align: center;
 }
 .Movies-Catalog{
@@ -132,21 +133,26 @@ header{
   width: 15vw;
 }
 footer{
-  margin: 40px auto;
+  margin: 60px auto;
   font-size: 1rem;
+  font-weight: lighter;
   color: grey;
   max-width: 1200px;
 }
 .footer-flex{
-  margin-top: 40px;
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   word-spacing: normal;
-  gap: 20px 50px ;
+  gap: 20px 10px ;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-flex h2{
+  flex-basis: 100%;
 }
 .footer-flex span{
-  flex-basis: 250px;
-  justify-content: center;
+  flex-basis: 230px;
 }
 @media(max-width:950px){
   .first-section{
@@ -171,9 +177,22 @@ footer{
   .item-tablet img{
     width: 80vw; 
   }
+  footer{
+    margin: 20px;
+  }
 }
 @media(max-width:600px){
   header a img{
     width: 80vw;
   }
+  .item-cellphone img{
+    display: none;
+  }
+  
+  .first-section{
+    padding-top: 20vh;
+  }
+  .App a button{
+    margin: 20px auto;
+  } 
 }

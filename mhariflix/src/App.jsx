@@ -17,10 +17,14 @@ function App() {
       <div className='initial-screen'>
         <img className='bg' src={bg} alt="imagem de fundo" />
         <div className='first-section'>
-          <p>Unlimited movies, TV, shows, and more.</p>
-          <p>Watch anywhere. Cancel anytime.</p>
+          <h1>Unlimited movies, TV, shows, and more.</h1>
+          <h2>Watch anywhere. Cancel anytime.</h2>
+          <p>Ready to watch? Enter your email to create or restart your membership.</p>
         </div>
-        <a href=""><button>Get Started</button></a>
+        <div className='Container-initialscreen-subscription'>
+          <input type="email" placeholder='Email address' />
+          <a href=""><button>Get Started</button></a>
+        </div>
       </div>
       <div className='Container-Catalog'>
         <h2>

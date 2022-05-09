@@ -3,19 +3,21 @@ const Footer = () => {
         <footer>
             
             <div className="footer-flex">
-             <h2>Dúvidas? Ligue XXXX-XXX-XXXX</h2>
-             <span>Perguntas frequentes</span>
-             <span>Centro de ajuda</span>
-             <span>Termo de uso</span>   
-             <span>Privacidade</span>
-             <span>Preferência de cookies</span>
-             <span>Informações corporativas</span>
+             <h2>Questions? Ligue XXXX-XXX-XXXX</h2>
+             <span>FAQ</span>
+             <span>Help Center</span>
+             <span>Terms of Use</span>   
+             <span>Privacy</span>
+             <span>Cookie Preferences</span>
+             <span>Corporative Infomation</span>
             </div>
             <select name="language" id="language">
-                <option value="pt-br">
+                <option value="en">
+                    English
+                </option>
+                <option value="pt-br" disabled>
                     Português
                 </option>
-                <option value="en">English</option>
             </select>
         </footer>
     );

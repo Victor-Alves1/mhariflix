@@ -7,7 +7,7 @@ const Row = ({title, items}) => {
             <h2>{title}</h2>
             <div className='row-movies'>
                 {items.results.length > 0 && items.results.map((items, key)=>(
-                    <img src={`https://image.tmdb.org/t/p/w300${items.poster_path}`} alt="Capa do filme" />
+                    <img src={`https://image.tmdb.org/t/p/w300${items.poster_path}`} alt="film banner" />
                 ))}
             </div>
         </div>

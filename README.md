@@ -17,7 +17,8 @@ now this app will run on the http://localhost:3000/
 
 ## 💢Computer 1280px x 969px 
 
-![image](https://user-images.githubusercontent.com/101835324/166445237-61c7d5d4-5c24-4c55-8722-b6d261d3dd42.png)
+![image](https://user-images.githubusercontent.com/101835324/167623314-5b0c7701-caa5-441c-aaf4-7fa3848b2f35.png)
+
 
 ## 💢When you click on Container "Super Heroes movies"
 
@@ -33,7 +34,8 @@ now this app will run on the http://localhost:3000/
 
 ## 💢IPad mini 820px x 1180px
 
-![image](https://user-images.githubusercontent.com/101835324/166444753-8ffbd2fc-692d-422d-8e3d-d339e6103ca2.png)
+![image](https://user-images.githubusercontent.com/101835324/167623967-35cec98c-0ebd-48c6-b966-22cd08b6005c.png)
+
 
 ## 💢When you click on Container "Super Heroes movies" on IPad mini
 
@@ -41,7 +43,7 @@ now this app will run on the http://localhost:3000/
 
 ## 💢IPhone SE 375px x 667px
 
-![image](https://user-images.githubusercontent.com/101835324/166444847-48580128-abe4-4801-872b-a464e4b15890.png)
+![image](https://user-images.githubusercontent.com/101835324/167624079-36b78e5f-2647-4e63-9dec-edf85a483cfd.png)
 
 ## 💢When you click on Container "Super Heroes movies" on IPhone SE
 

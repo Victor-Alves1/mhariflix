@@ -14,6 +14,10 @@ In the main directory of the project, you can:
 
 now this app will run on the http://localhost:3000/
 
+## 💢The app running
+
+https://user-images.githubusercontent.com/101835324/168695110-e9bdaa87-5b7f-4cd1-825b-b0ad9a7167b2.mp4
+
 
 ## 💢Computer 1280px x 969px 
 
